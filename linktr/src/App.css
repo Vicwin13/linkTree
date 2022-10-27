@@ -29,3 +29,23 @@ header {
   background-image: url(./model.png);
 
 }
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: .3rem;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+}
