@@ -15,6 +15,43 @@ header {
   flex-direction: column;
   margin-top: 2rem;
   width: 90%;
+  position: relative;
+
+}
+
+.cover {
+
+  height: 100%;
+  background: rgba(71, 70, 70, 0.4);
+  border-radius: 50%;
+
+}
+
+
+
+.photo {
+  position: absolute;
+  bottom: 1rem;
+  left: 43%;
+
+}
+
+
+
+.share {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.share img:first-child {
+  display: none;
+  width: 2rem;
+}
+
+.share img:last-child {
+
+  width: 2rem;
 
 }
 
@@ -33,6 +70,7 @@ header {
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
+  position: relative;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -53,7 +91,15 @@ button {
   width: 100%;
   border: none;
   border-radius: .3rem;
+  background-color: #eaecf0;
+
 }
+
+button:hover {
+  background-color: #D0D5DD;
+}
+
+
 
 .subtext {
   font-size: small;
@@ -90,4 +136,18 @@ footer {
   align-items: center;
   border-top: 1px solid rgba(127, 127, 131, 0.3);
   padding: 2rem 0;
+}
+
+@media screen and (min-width: 657px) {
+  .share img:last-child {
+    display: none;
+  }
+
+  .share img:first-child {
+    display: block;
+  }
+
+  .share {
+    right: 20%;
+  }
 }

@@ -25,13 +25,16 @@ function Buttons() {
           {" "}
           <p>Basic Coding 1.0</p>
           <p className="subtext">
-            Where I get my books from showing the fundamentals of coding
+            Where I get my books from, showing the fundamentals of coding.
           </p>
         </a>
       </button>
       <button>
         {" "}
-        <a id="btn_python" href="https://books.zuri.team/python-for-beginners">
+        <a
+          id="btn_python"
+          ref_id="VicWin13"
+          href="https://books.zuri.team/python-for-beginners">
           {" "}
           Python Books
         </a>
@@ -40,7 +43,7 @@ function Buttons() {
         {" "}
         <a id="pitch" href="https://background.zuri.team">
           {" "}
-          Difficulty picking the right employees?
+          Finding a hard time Hiring?
         </a>
         <p>We provide credibility and competent personnel's</p>
       </button>

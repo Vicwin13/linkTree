@@ -1,10 +1,17 @@
 const Profile = () => {
   const fullName = "Victor Nwimo";
   const slack = "VicWin13";
+  const share1 = require("./images/Icon.png");
+  const share2 = require("./images/Icon1.png");
+  const photo = require("./images/Icon (2).png");
 
   return (
     <header>
-      <div id="profile_img" className="images"></div>
+      <div id="profile_img" className="images">
+        <div className="cover">
+          <img className="photo" src={photo} alt="" srcset="" />
+        </div>
+      </div>
       <p id="" className="name">
         {fullName}
       </p>
@@ -12,6 +19,11 @@ const Profile = () => {
         {" "}
         {slack}
       </p>
+
+      <div className="share">
+        <img src={share1} alt="share button" />
+        <img src={share2} alt="" />
+      </div>
     </header>
   );
 };
