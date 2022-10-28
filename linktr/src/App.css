@@ -6,6 +6,7 @@
   text-align: center;
 }
 
+
 header {
   margin: 0 auto;
   display: flex;
@@ -17,19 +18,29 @@ header {
 
 }
 
+.slack {
+  display: none;
+}
+
+.name {
+  font-size: larger;
+  font-weight: 700;
+}
+
 
 .images {
-  border: 3px solid rgb(146, 146, 146);
+  border: 1px solid rgb(146, 146, 146);
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-image: url(./model.png);
+  background-image: url(./images/model.jpg);
 
 }
 
+/* This is for the button section */
 main {
   width: 90%;
   margin: 0 auto;
@@ -44,8 +55,39 @@ button {
   border-radius: .3rem;
 }
 
+.subtext {
+  font-size: small;
+  font-weight: 400;
+}
+
 button a {
   text-decoration: none;
   color: rgb(35, 35, 35);
   font-weight: 600;
+}
+
+/* This is for the Logo section  */
+
+.logo img {
+  max-width: 2rem;
+  padding: 1.5rem;
+}
+
+/* This is the footer section  */
+
+footer {
+  margin: 5rem 0 auto;
+
+
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: 1px solid rgba(127, 127, 131, 0.3);
+  padding: 2rem 0;
 }
