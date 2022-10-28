@@ -24,7 +24,7 @@ header {
   height: 100%;
   background: rgba(71, 70, 70, 0.4);
   border-radius: 50%;
-
+  opacity: 0;
 }
 
 
@@ -76,6 +76,14 @@ header {
   background-repeat: no-repeat;
   background-image: url(./images/model.jpg);
 
+}
+
+.images:hover .cover {
+  opacity: 1;
+}
+
+.images:active {
+  border: 6px solid rgb(157, 155, 155);
 }
 
 /* This is for the button section */

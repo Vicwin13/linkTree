@@ -17,6 +17,7 @@ const Profile = () => {
       </p>
       <p id="slack" className="slack">
         {" "}
+        Slack Name
         {slack}
       </p>
 

@@ -51,7 +51,7 @@ function Buttons() {
         {" "}
         <a id="book_design" href="https://books.zuri.team/design-rules">
           {" "}
-          Design Books
+          Free Design books
         </a>
       </button>
     </main>
