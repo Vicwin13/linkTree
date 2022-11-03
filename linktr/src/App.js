@@ -2,25 +2,17 @@ import "./App.css";
 
 import { Route, Routes } from "react-router-dom";
 
-import Buttons from "./Buttons";
-import Footer from "./Footer";
-import Login from "./Components/Login";
-import Logos from "./Logos";
-import Profile from "./Profile";
+import Contact from "./Components/Contact";
+import Home from "./Home";
 import React from "react";
 
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <Buttons />
-      <Logos />
-      <Footer />
-      <div className="contact-page">
-        <Routes>
-          <Route path="/contact" element={<Login />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

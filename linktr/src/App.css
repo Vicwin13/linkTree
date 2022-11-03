@@ -144,6 +144,49 @@ footer {
   padding: 2rem 0;
 }
 
+/* This is for the form  */
+
+.contact-page {
+
+  margin: 0 auto;
+  width: 45rem;
+  text-align: left;
+  height: auto;
+}
+
+form {
+
+  padding: 1rem;
+
+}
+
+form input {
+  padding: .7rem;
+  border-radius: 8px;
+  border: 1px solid rgb(149, 147, 147)
+}
+
+
+.email input {
+  width: 97%;
+}
+
+form .names {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.names input {
+  width: 19rem;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
 @media screen and (min-width: 657px) {
   .share img:last-child {
     display: none;
