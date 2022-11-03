@@ -7,16 +7,21 @@ const Profile = () => {
 
   return (
     <header>
-      <div id="profile_img" className="images">
+      <div className="images">
         <div className="cover">
-          <img className="photo" src={photo} alt="" srcset="" />
+          <img
+            id="profile__img"
+            className="photo"
+            src={photo}
+            alt=""
+            srcset=""
+          />
         </div>
       </div>
       <p id="" className="name">
         {fullName}
       </p>
       <p id="slack" className="slack">
-        {" "}
         Slack Name
         {slack}
       </p>

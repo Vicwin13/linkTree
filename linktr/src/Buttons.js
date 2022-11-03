@@ -1,59 +1,40 @@
+import { Link } from "react-router-dom";
+
 function Buttons() {
   return (
     <main>
-      <button>
-        {" "}
-        <a
-          id="twitter"
-          href="https://twitter.com/VictorWinner13"
-          target="_blank"
-          rel="noreferrer">
-          {" "}
-          Twitter
-        </a>
-      </button>
-      <button>
-        {" "}
-        <a id="btn_zuri" href="https://training.zuri.team">
-          {" "}
-          Zuri Team
-        </a>
-      </button>
-      <button>
-        {" "}
-        <a id="books" href="https://books.zuri.team">
-          {" "}
-          <p>Basic Coding 1.0</p>
-          <p className="subtext">
-            Where I get my books from, showing the fundamentals of coding.
-          </p>
-        </a>
-      </button>
-      <button>
-        {" "}
-        <a
-          id="btn_python"
-          ref_id="VicWin13"
-          href="https://books.zuri.team/python-for-beginners">
-          {" "}
-          Python Books
-        </a>
-      </button>
-      <button>
-        {" "}
-        <a id="pitch" href="https://background.zuri.team">
-          {" "}
-          Finding a hard time Hiring?
-        </a>
-        <p>We provide credibility and competent personnel's</p>
-      </button>
-      <button>
-        {" "}
-        <a id="book_design" href="https://books.zuri.team/design-rules">
-          {" "}
-          Free Design books
-        </a>
-      </button>
+      {" "}
+      <a
+        id="twitter"
+        href="https://twitter.com/VictorWinner13"
+        target="_blank"
+        rel="noreferrer">
+        Twitter Link
+      </a>
+      <a id="btn__zuri" href="https://training.zuri.team">
+        Zuri Team
+      </a>
+      <a
+        id="books"
+        href="https://books.zuri.team"
+        title="Basic Coding 1.0; Where I find books on the fundamentals of coding">
+        Zuri Books
+      </a>
+      <a
+        id="book__python"
+        href="https://books.zuri.team/pyton-for-beginners?ref_id=VicWin13">
+        Python Books
+      </a>
+      <a
+        id="pitch"
+        href="https://background.zuri.team"
+        title="Having trouble hiring? We've got you covered">
+        Background Check for Coders
+      </a>
+      <a id="book__design" href="https://books.zuri.team/design-rules">
+        Design Books
+      </a>
+      <Link to="/contact">Contact Me</Link>
     </main>
   );
 }
