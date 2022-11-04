@@ -3,7 +3,9 @@ import "../App.css";
 function Submit() {
   return (
     <div>
-      <input className="submit" type="submit" value="Submit" />
+      <button id="btn__submit" type="submit" className="submit">
+        Submit
+      </button>
     </div>
   );
 }

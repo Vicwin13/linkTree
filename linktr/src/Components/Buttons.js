@@ -34,7 +34,9 @@ function Buttons() {
       <a id="book__design" href="https://books.zuri.team/design-rules">
         Design Books
       </a>
-      <Link to="/contact">Contact Me</Link>
+      <Link to="/contact" id="contact">
+        Contact Me
+      </Link>
     </main>
   );
 }
