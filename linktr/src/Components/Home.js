@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 
 import Buttons from "./Buttons";
 import Footer from "./Footer";

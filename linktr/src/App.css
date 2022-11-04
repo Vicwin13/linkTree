@@ -2,9 +2,6 @@
   text-align: center;
 }
 
-.App {
-  text-align: center;
-}
 
 
 header {
@@ -155,9 +152,7 @@ footer {
 }
 
 form {
-
-  padding: 1rem;
-
+  width: 100%;
 }
 
 form input {
@@ -173,19 +168,38 @@ form input {
 
 form .names {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   text-align: left;
+  gap: 1rem;
 }
 
 .names input {
-  width: 19rem;
+  width: 24em;
+}
+
+.message-container {
+  margin-top: 1.5rem;
 }
 
 textarea {
-  width: 100%;
+  width: 99.5%;
   border-radius: 8px;
 }
 
+.submit {
+
+  width: 100.5%;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: rgba(21, 112, 239, 1);
+  color: white;
+}
+
+.terms {
+  margin-top: 1rem;
+}
 
 @media screen and (min-width: 657px) {
   .share img:last-child {

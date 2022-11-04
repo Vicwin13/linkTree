@@ -1,6 +1,6 @@
 const Logos = () => {
-  const logo1 = require("./images/slack-new-logo-icon-11609376883z32jbkf8kg.png");
-  let logo2 = require("./images/iconmonstr-github-1-240.png");
+  const logo1 = require("../images/slack-new-logo-icon-11609376883z32jbkf8kg.png");
+  let logo2 = require("../images/iconmonstr-github-1-240.png");
 
   return (
     <section>

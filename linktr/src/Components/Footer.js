@@ -1,5 +1,5 @@
 function Footer() {
-  let footer2 = require("./images/I4G.png");
+  let footer2 = require("../images/I4G.png");
   return (
     <footer>
       <div className="container">

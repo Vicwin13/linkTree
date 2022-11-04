@@ -1,9 +1,9 @@
 const Profile = () => {
   const fullName = "Victor Nwimo";
   const slack = "VicWin13";
-  const share1 = require("./images/Icon.png");
-  const share2 = require("./images/Icon1.png");
-  const photo = require("./images/Icon (2).png");
+  const share1 = require("../images/Icon.png");
+  const share2 = require("../images/Icon1.png");
+  const photo = require("../images/Icon (2).png");
 
   return (
     <header>
