@@ -1,40 +1,38 @@
+// import "./contact.css";
+
 import Submit from "./Submit";
 
 const Log = () => {
+  let name = "";
   return (
     <form action="">
-      <div className="names">
-        <label htmlFor="First name">
-          First name <br />
+      <div className="contain">
+        <div>
+          <label htmlFor="first name">First name</label>
           <input type="text" placeholder="Enter your first name" />
-        </label>
-        <label htmlFor="First name">
-          Last name <br />
+        </div>
+        <div>
+          <label htmlFor="last name">Last name</label>
           <input type="text" placeholder="Enter your last name" />
-        </label>
+        </div>
       </div>
-      <br />
       <div>
-        <label htmlFor="email" className="email">
-          Email <br />
-          <input
-            type="email"
-            name="email"
-            id=""
-            placeholder="yourname@email.com"
-          />
-        </label>
+        <label htmlFor="email">Email</label>
+        <input type="email" name="" id="" placeholder="youremail@email.com" />
       </div>
-      <div className="message-container">
-        <label htmlFor="message" className="message">
-          Message <br />
-          <textarea name="message" id="" cols="30" rows="10"></textarea>
-        </label>
+      <div>
+        <label htmlFor="message">Message</label>
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Send me a message and I'll reply you as soon as possible"></textarea>
       </div>
-      <div className="terms">
+      <div className="term">
         <input type="checkbox" name="" id="" />
-        <label htmlFor="Terms">
-          You agree to provide data to (name) who may contact you.
+        <label htmlFor="terms">
+          You agree to providing your data to {name} who may contact you.
         </label>
       </div>
       <Submit />
